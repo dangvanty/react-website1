@@ -8,7 +8,7 @@ import Services from './Components/Pages/Services';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/react-website1'>
         <Navbar/>
         <Routes>
           <Route path='/' exact element={<Home/>}/>
